@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.note {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.actions {
+  margin-top: 10px;
+}
